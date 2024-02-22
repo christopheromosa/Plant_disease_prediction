@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/*________________Container_____________*/
+/* main_container_wrapper */
+.main_container_wrapper {
+  /* border: 3px solid red; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(241, 225, 176, 1) 0%,
+    rgba(252, 198, 33, 1) 60%
+  );
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 20px;
+  gap: 11px;
+  border-radius: 17px;
+  box-shadow: -12px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*________________main_content_wrapper_____________*/
+/* main_content_wrapper */
+.main_content_wrapper {
+  /* border: 3px solid orange; */
+  background-color: #fcc621;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  padding:15px;
+  border-radius: 16px;
+/* box-shadow: -12px 2px 5px 0px rgba(0,0,0,0.75); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*________________right_content_____________*/
+/* right_content_wrapper */
+.right_content_wrapper {
+  /* border: 3px solid green; */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fbfaf4;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 15px;
+  justify-content:space-around;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+}
+
+/*________________left_content_____________*/
+/* left_content_wrapper */
+.left_content_wrapper {
+  /* border: 3px solid brown; */
+  background-color: #eddba1;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem .5rem;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+
+.upgrade_to_premium {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 17px;
+  padding: 5px;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  text-align: center;
+  margin-bottom:1rem;
 }

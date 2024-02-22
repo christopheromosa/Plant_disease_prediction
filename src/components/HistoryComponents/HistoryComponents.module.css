@@ -1,0 +1,32 @@
+/* recent_results_table */
+.recent_results_table {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  overflow-y: auto;
+  height:24rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent_results_table table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+img{
+  width:4rem;
+  height:4rem;
+}

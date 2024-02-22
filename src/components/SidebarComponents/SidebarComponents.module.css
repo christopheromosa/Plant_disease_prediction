@@ -1,0 +1,57 @@
+/*________________sidebar_____________*/
+/* sidebar */
+.sidebar {
+  /* border: 3px solid blue; */
+  background-color: #f1e1b0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px;
+  box-shadow: -12px 2px 5px 0px rgba(0, 0, 0, 0.38);
+}
+
+/* logo */
+.logo {
+  display: flex;
+  gap: 1rem;
+  padding: 21px;
+}
+.logo img {
+  width: 43px;
+  height: 23px;
+}
+/* sidebar_links */
+.sidebar_links {
+  padding: 21px;
+}
+.sidebar_links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style: none;
+}
+.sidebar_links ul li{
+  display:flex;
+  gap:1rem;
+  align-items:center;
+}
+
+i{
+  font-size: 1.75em;
+
+}
+.no_decoration {
+  text-decoration: none;
+}
+/* logout */
+.logout {
+  /* border:1px solid #fff; */
+  padding: 21px;
+}
+.logout a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}

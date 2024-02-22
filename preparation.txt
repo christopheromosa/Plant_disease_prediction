@@ -1,0 +1,92 @@
+components 
+
+uploading components
+
+uploadImage.js
+uploadImage.module.css
+
+ProfileComponents
+
+profileComponents.js
+profileComponents.module.css
+
+HistoryComponents
+
+historyComponents.js
+historyComponents.module.css
+
+SidebarComponents
+
+sidebarComponents.js
+sidebarComponents.module.css
+
+ReminderComponents
+
+reminderComponents.js
+reminderComponent.module.css
+
+
+OVERAL COMPONENT
+                |----------------SidebarComponents
+                |---------------Main Component
+                                |--------uploading components
+                                |
+                                |
+                                |
+                                |--------ProfileComponents
+                                |
+                                |
+                                |
+                                |--------HistoryComponents
+                                |
+                                |
+                                |
+                                |--------SidebarComponents
+                                |
+                                |
+                                |
+                                |--------ReminderComponents
+
+Section 1:
+
+handling Plants pages the necessary requirements in the ProfileComponents
+ - Fetch plant info from the backend the default one upon change should fetch another plant info
+ - Fetch plant images for the corousel: plant image 
+ - Plant info:  1. plant image , plant name ,plant description { overal description}
+                2. plant image, plant disease name, plant disease description
+                3.plant image ,plant name, plant Types, plant type description
+- in the backend:
+               - create a general model for different plants, then linked it with these other model to have a relationship
+                    1. create a model for plant description
+                    2. create a model for plant disease Types
+                    3. create a model for plant types for that specific plant category
+               - create api endpoint for the crud activities for the plants operations
+
+
+Section 2:
+
+handling Plants disease recommendations for specific Plant category
+ - Fetch plant info from the backend the default one upon change should fetch another plant info
+ - Plant info: 1. plant image, plant name,plant disease, plant disease recommendation
+          Note: Each plant disease type should have a recommendation attached to it which will be rendered later
+                later on the recommendation pages
+- In the backend:
+                - Add additional column for the plant disease type to have recommendation
+                   1. create a new column for the plant disease type recommendation
+                - create api endpoint for the crud activities for the plant recommendation type
+
+section 3: 
+
+- handling the setting page for the application
+- create a boiler plate of how the setting page will be i.e just a modal with the user info
+- fetching user information from the backend and user able to view its details
+- user able to view, edit or delete the information details
+- user can be able to upgrade to premium version if desired
+- user info:
+            1. profile image for the user profile
+            2. user personal information i.e name, email, password, occupation, location.
+            3
+
+- In the backend:
+               -  based on the present user model categories between premium members and normal members 
+               - create api  endpoints for the crud activites for user profile information

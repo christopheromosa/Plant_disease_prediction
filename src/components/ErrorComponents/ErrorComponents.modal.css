@@ -1,0 +1,12 @@
+
+.error_page {
+  display: flex;
+  justify-content: center;
+}
+.error_container {
+  text-align: center;
+  text-transform: capitalize;
+}
+.section {
+  padding: 5rem 0;
+}

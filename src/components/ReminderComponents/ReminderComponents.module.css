@@ -1,0 +1,34 @@
+/* reminders_notification */
+.reminders_notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 21px;
+}
+.reminders_notification .reminders_headers {
+  display: flex;
+  justify-content: space-between;
+}
+.bolder {
+  font-weight: 501;
+}
+.reminders_notification .card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 17px;
+}
+.event_holder {
+  display: flex;
+  gap: 1rem;
+}
+.event_holder .events {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.speaker_icon {
+  font-size: 1rem;
+}

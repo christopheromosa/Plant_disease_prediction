@@ -1,0 +1,64 @@
+/* header  */
+.header {
+  color: black;
+}
+
+/* fileupload */
+.fileupload {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* resultsContainer for additional styling */
+.resultsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2; /* To make it take remaining vertical space */
+}
+.fileholder{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+  padding:0;
+  margin:auto;
+}
+.fileholder img{
+  width:7rem;
+  height:7rem;
+  border-radius:17px;
+}
+
+
+/* results */
+.results {
+  display: flex; /* To make it take remaining vertical space */
+  width: 100%;
+  flex-direction:column;
+  background-color: white;
+  border-radius: 17px;
+  margin: inherit;
+  border:1px solid grey;
+  justify-content:start;
+  align-items:center;
+  padding:.7rem;
+  
+}
+.fileuploadStyle {
+  display: flex; /* To make it take remaining vertical space */
+  width: 100%;
+  flex-direction:column;
+  background-color: white;
+  border-radius: 17px;
+  margin: inherit;
+  border:1px solid grey;
+  justify-content:start;
+  align-items:center;
+  padding:.7rem;
+  
+}
+.block{
+    display:inline-block;
+    font-weight:bold;
+}
